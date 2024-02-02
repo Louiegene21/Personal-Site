@@ -1,0 +1,135 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;;
+    display: block;
+}
+
+.top-container {
+    background-color: #FFF8E3;
+    position: relative;
+    padding-top: 100px;
+}
+
+div {
+    display: block;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+}
+
+h1 {
+    color: #E6A4B4;
+    font-size: 8rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+
+
+h2 {
+    color: #F3D7CA;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.pine-tree {
+    width: 600px;
+    height: 360px;
+    
+}
+
+.middle-container {
+    background-color: white;
+    margin: 100px;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+h3 {
+    color: #E6A4B4;
+    font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #E6A4B4;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+a {
+    color: #F3D7CA;
+    margin: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #E6A4B4;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 1rem;
+    padding: 20px 0;
+}
